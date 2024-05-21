@@ -13,21 +13,21 @@
         android:padding="20dp"
         android:background="@color/primary_theme">
 
-        <ImageButton
-            android:id="@+id/menu_button"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="?android:attr/selectableItemBackgroundBorderless"
-            android:src="@drawable/menu_icon" />
+<!--        <ImageButton-->
+<!--            android:id="@+id/menu_button"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:background="?android:attr/selectableItemBackgroundBorderless"-->
+<!--            android:src="@drawable/menu_icon" />-->
 
-        <ImageButton
-            android:id="@+id/add_review_top_button"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="?android:attr/selectableItemBackgroundBorderless"
-            android:src="@drawable/add_review" />
+<!--        <ImageButton-->
+<!--            android:id="@+id/add_review_top_button"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:background="?android:attr/selectableItemBackgroundBorderless"-->
+<!--            android:src="@drawable/add_review" />-->
     </LinearLayout>
 
     <TextView
@@ -171,13 +171,14 @@
                 android:background="?android:attr/selectableItemBackgroundBorderless"
                 android:src="@drawable/home_icon" />
 
+
             <ImageButton
-                android:id="@+id/search_button"
+                android:id="@+id/menu_button"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="?android:attr/selectableItemBackgroundBorderless"
-                android:src="@drawable/favourite_icon" />
+                android:src="@drawable/menu_icon" />
 
             <ImageButton
                 android:id="@+id/cart_button"
@@ -188,12 +189,30 @@
                 android:src="@drawable/cart_icon" />
 
             <ImageButton
-                android:id="@+id/profile_button"
+                android:id="@+id/add_review_top_button"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="?android:attr/selectableItemBackgroundBorderless"
-                android:src="@drawable/profile_icon" />
+                android:src="@drawable/add_review" />
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/search_button"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="?android:attr/selectableItemBackgroundBorderless"-->
+<!--                android:src="@drawable/favourite_icon" />-->
+
+
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/profile_button"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="?android:attr/selectableItemBackgroundBorderless"-->
+<!--                android:src="@drawable/profile_icon" />-->
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 </LinearLayout>
